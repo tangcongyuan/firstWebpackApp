@@ -1,0 +1,32 @@
+{
+  "name": "first-webpack-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development webpack-dev-server --progress --colors --inline --hot",
+    "compile": "webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangcongyuan/firstWebpackApp.git"
+  },
+  "author": "Eric Tang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tangcongyuan/firstWebpackApp/issues"
+  },
+  "homepage": "https://github.com/tangcongyuan/firstWebpackApp#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  }
+}
