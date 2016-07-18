@@ -1,3 +1,5 @@
+import Page from './components/Page.jsx';
+
 var React = require('react');
 var ReactDOM = require('react-dom');
 
@@ -14,4 +16,4 @@ export default class Content extends React.Component {
   }
 }
 
-ReactDOM.render(<Content />, document.getElementById('react-content'));
+ReactDOM.render(<Page />, document.getElementById('react-content'));
