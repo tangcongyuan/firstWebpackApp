@@ -20,12 +20,22 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
         }
+      },
+      {
+        test: /\.css$/,
+        loader: 'style!css?modules'
       }
     ],
   },
+
+  // Source maps used for debugging information
+  devtool: 'eval-source-map',
   
   devServer: {
     contentBase: "./dist",
+    historyApiFallback: true,
+    inline: true,
+    colors: true
   },
 
   plugins: [
