@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Page extends React.Component {
+export default class NavBar extends React.Component {
     render() {
         return (
             <nav className="navbar navbar-default navbar-fixed-top">
@@ -12,7 +12,7 @@ export default class Page extends React.Component {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand" href="#page-top">Eric (Congyuan) Tang</a>
+                        <a className="navbar-brand" href="#page-top">Bar App</a>
                     </div>
 
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -36,11 +36,3 @@ export default class Page extends React.Component {
         )
     }
 }
-
-// export default function Page(props) {
-//     return (
-//         <div>
-//             <h1 classNameName="fa fa-github">Modified Page.</h1>
-//         </div>
-//     )
-// }
